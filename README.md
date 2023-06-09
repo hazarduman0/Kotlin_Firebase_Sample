@@ -4,7 +4,7 @@ Requested to be done as homework in Turkcell Kotlin Bootcamp.
 • Registration and login pages must be done with Firebase's Authentication service. </br>
 • Users not registered in Firebase will not be able to log in. </br>
 • After logging in, the main screen opens. In this screen, components with "Title", "City", "Notes" information are listed. </br>
-• When an element in the list is long clicked, the question "Do you want to delete?" appears and when yes is said, that data is deleted from the Firabase database. </br>
+• When an element in the list is long clicked, the question "Do you want to delete?" appears and when yes is said, that data is deleted from the Firebase database. </br>
 • Whoever logs in to the system, data specific to that person will be listed. </br>
 • There must be a forgot password feature. </br>
 ## Dependencies
