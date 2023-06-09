@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="addEditObject"
+            type="com.example.visitravel.fragments.addedit.AddEditFragment" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_color"
+        tools:context=".fragments.addedit.AddEditFragment">
+
+        <EditText
+            android:id="@+id/locationEditText"
+            style="@style/edit_text_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="128dp"
+            android:layout_marginEnd="16dp"
+            android:ems="10"
+            android:hint="@string/location"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/addEditBackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:onClick="@{()-> addEditObject.backButtonClick()}"
+            android:background="@drawable/image_button"
+            android:src="@drawable/icon_back_black_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/icon_back_black_24" />
+
+        <EditText
+            android:id="@+id/descriptionEditText"
+            style="@style/edit_text_style"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:ems="10"
+            android:hint="@string/Description"
+            android:inputType="textMultiLine"
+            android:maxLines="5"
+            android:scrollHorizontally="false"
+            android:gravity="top|start"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/locationEditText" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/addEditButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            style="@style/button_styles"
+            android:text="@string/add_location"
+            app:layout_constraintEnd_toEndOf="@+id/descriptionEditText"
+            app:layout_constraintStart_toStartOf="@+id/descriptionEditText"
+            app:layout_constraintTop_toBottomOf="@+id/descriptionEditText" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            style="@style/header_text_styles"
+            android:gravity="left"
+            android:text="@string/place"
+            app:layout_constraintBottom_toBottomOf="@+id/addEditBackButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/addEditBackButton"
+            app:layout_constraintTop_toTopOf="@+id/addEditBackButton" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/addEditDeleteButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            style="@style/button_styles"
+            android:backgroundTint="@color/red"
+            android:visibility="gone"
+            android:text="@string/delete"
+            app:layout_constraintEnd_toEndOf="@+id/addEditButton"
+            app:layout_constraintStart_toStartOf="@+id/addEditButton"
+            app:layout_constraintTop_toBottomOf="@+id/addEditButton" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

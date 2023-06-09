@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">visitravel</string>
+    <string name="place">Place</string>
+
+    <string name="welcome_back">Welcome Back</string>
+    <string name="sign_now">Sign in now</string>
+    <string name="please_sign_continue">Please sign in to continue</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forget_password_question">Forget Password?</string>
+    <string name="dont_have_account">Dont have an account?</string>
+
+    <string name="welcome">Welcome</string>
+    <string name="sign_up_now">Sign up now</string>
+    <string name="please_fill_details">Please fill the details and create account</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_account">Already have an account</string>
+
+    <string name="forgot_password">Forgot password</string>
+    <string name="enter_to_reset_password">Enter your e-mail address to receive your password renewal mail</string>
+    <string name="reset_password">Reset Password</string>
+
+    <string name="required">Required</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <string name="my_places">My Places</string>
+    <string name="search_location">Search location…</string>
+
+    <string name="location">Location</string>
+    <string name="Description">Description</string>
+
+    <string name="add_location">Add Location</string>
+    <string name="add_image">Add Image</string>
+    <string name="update_location">Update Location</string>
+
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+</resources>

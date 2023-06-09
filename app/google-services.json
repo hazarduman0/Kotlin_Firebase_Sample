@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "424402021031",
+    "project_id": "visitravel-952b1",
+    "storage_bucket": "visitravel-952b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424402021031:android:c2f1a604af994a98af0982",
+        "android_client_info": {
+          "package_name": "com.example.visitravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424402021031-vb9uh2hs56r8iq2nnh8fn9k677ftlgdi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjnMTUnIefszrVa3Kv2tg1cn8TfLckDCw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424402021031-vb9uh2hs56r8iq2nnh8fn9k677ftlgdi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
